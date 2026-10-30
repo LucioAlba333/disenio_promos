@@ -17,7 +17,7 @@ export function cargarBilleteras(promociones) {
 }
 export function cargarDias(promociones) {
     const lista = document.getElementById('lista-dia');
-    const dias = [...new Set(promociones.map((p) => p.dia))];
+    const dias = [...new Set(promociones.flatMap((p) => p.dia))];
 
     dias.forEach((dia) => {
         const li = document.createElement('li');
@@ -45,7 +45,9 @@ export function aplicarFiltros(promociones) {
     ).map((input) => input.value);
 
     return promociones.filter((promo) => {
-        const coincideDia = diasSeleccionados.length === 0 || diasSeleccionados.includes(promo.dia);
+        const coincideDia =
+            diasSeleccionados.length === 0 ||
+            diasSeleccionados.some((dia) => promo.dia.includes(dia));
         const coincideBilletera =
             billeterasSeleccionadas.length === 0 ||
             billeterasSeleccionadas.includes(promo.billetera);
