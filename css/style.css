@@ -29,5 +29,5 @@ header.navbar details.dropdown summary {
   word-break: break-word;
   height: auto !important;
   display: block;
-  line-height: 1.3;
+  font-size: 0.875em;
 }
