@@ -4,7 +4,7 @@ import { aplicarFiltros, cargarBilleteras, cargarDias } from './filter.js';
 document.addEventListener('DOMContentLoaded', async () => {
     const promociones = await getAll();
     promociones_render(promociones);
-    cargarDias(promociones);
+    cargarDias();
     cargarBilleteras(promociones);
     const filtroDia = document.getElementById('lista-dia');
     const filtroBilletera = document.getElementById('lista-billetera');

@@ -7,7 +7,7 @@
         "logotipo": "assets/modo.png",
         "descuento": 15,
         "precio_original": 2749.0,
-        "dia": "lunes"
+        "dia": ["jueves"]
     },
     {
         "id": 2,
@@ -17,26 +17,26 @@
         "logotipo": "assets/modo.png",
         "descuento": 10,
         "precio_original": 3245.0,
-        "dia": "martes"
+        "dia": ["martes", "miercoles"]
     },
     {
         "id": 3,
-        "producto": "leche",
-        "imagen": "assets/leche.png",
-        "billetera": "mercado pago",
-        "logotipo": "assets/mercado-pago.svg",
-        "descuento": 10,
-        "precio_original": 100,
-        "dia": "miercoles"
+        "producto": "Galletitas dulces Melba rellenas con crema 120 g",
+        "imagen": "assets/melba.png",
+        "billetera": "naranja x",
+        "logotipo": "assets/naranja.svg",
+        "descuento": 25,
+        "precio_original": 1679.0,
+        "dia": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
     },
     {
         "id": 4,
-        "producto": "leche",
-        "imagen": "assets/leche.png",
+        "producto": "Leche chocolatada Las 3 niñas 200 cc",
+        "imagen": "assets/choco.png",
         "billetera": "mercado pago",
         "logotipo": "assets/mercado-pago.svg",
-        "descuento": 10,
-        "precio_original": 100,
-        "dia": "jueves"
+        "descuento": 20,
+        "precio_original": 1979.0,
+        "dia": ["miércoles", "jueves", "viernes"]
     }
 ]

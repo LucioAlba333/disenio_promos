@@ -15,10 +15,11 @@ export function cargarBilleteras(promociones) {
         lista.appendChild(li);
     });
 }
-export function cargarDias(promociones) {
-    const lista = document.getElementById('lista-dia');
-    const dias = [...new Set(promociones.map((p) => p.dia))];
 
+export function cargarDias() {
+    const lista = document.getElementById('lista-dia');
+    const dias = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
+    dias.toSorted();
     dias.forEach((dia) => {
         const li = document.createElement('li');
         const label = document.createElement('label');
@@ -45,7 +46,9 @@ export function aplicarFiltros(promociones) {
     ).map((input) => input.value);
 
     return promociones.filter((promo) => {
-        const coincideDia = diasSeleccionados.length === 0 || diasSeleccionados.includes(promo.dia);
+        const coincideDia =
+            diasSeleccionados.length === 0 ||
+            diasSeleccionados.some((dia) => promo.dia.includes(dia));
         const coincideBilletera =
             billeterasSeleccionadas.length === 0 ||
             billeterasSeleccionadas.includes(promo.billetera);
