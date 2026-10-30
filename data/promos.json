@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "producto": "leche",
-        "imagen": "assets/leche.png",
+        "producto": "Gaseosa cola Cunnington suave",
+        "imagen": "assets/gaseosa.png",
         "billetera": "modo",
         "logotipo": "assets/modo.png",
-        "descuento": 10,
-        "precio_original": 100,
+        "descuento": 15,
+        "precio_original": 2749.0,
         "dia": "lunes"
     },
     {
         "id": 2,
-        "producto": "leche",
+        "producto": "Leche Protein La Serenisima 1L",
         "imagen": "assets/leche.png",
         "billetera": "modo",
         "logotipo": "assets/modo.png",
         "descuento": 10,
-        "precio_original": 100,
+        "precio_original": 3245.0,
         "dia": "martes"
     },
     {

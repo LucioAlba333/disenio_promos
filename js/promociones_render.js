@@ -9,15 +9,15 @@ export function promociones_render(promociones) {
         const precioFinal = promo.precio_original - (promo.precio_original * promo.descuento) / 100;
 
         article.innerHTML = `
-            <p>
+            <header>
                 <strong>${promo.producto}</strong>
-            </p>
+            </header>
             <img class="producto-img" src="${promo.imagen}" alt="${promo.producto}">
             <p>${promo.descuento}% OFF</p>
 
             <p>
-                <del>$${promo.precio_original}</del>
-                <strong>$${precioFinal}</strong>
+                <del>$${promo.precio_original.toFixed(2)}</del>
+                <strong>$${precioFinal.toFixed(2)}</strong>
             </p>
             <p class="billetera-info">
                 todos los ${promo.dia} usando:
