@@ -9,9 +9,9 @@ export function promociones_render(promociones) {
         const precioFinal = promo.precio_original - (promo.precio_original * promo.descuento) / 100;
 
         article.innerHTML = `
-            <p>
+            <header>
                 <strong>${promo.producto}</strong>
-            </p>
+            </header>
             <img class="producto-img" src="${promo.imagen}" alt="${promo.producto}">
             <p>${promo.descuento}% OFF</p>
 
