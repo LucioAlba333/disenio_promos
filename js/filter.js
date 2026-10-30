@@ -15,10 +15,11 @@ export function cargarBilleteras(promociones) {
         lista.appendChild(li);
     });
 }
-export function cargarDias(promociones) {
-    const lista = document.getElementById('lista-dia');
-    const dias = [...new Set(promociones.flatMap((p) => p.dia))];
 
+export function cargarDias() {
+    const lista = document.getElementById('lista-dia');
+    const dias = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
+    dias.toSorted();
     dias.forEach((dia) => {
         const li = document.createElement('li');
         const label = document.createElement('label');

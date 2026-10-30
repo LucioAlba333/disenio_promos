@@ -10,9 +10,11 @@ export function promociones_render(promociones) {
         let diasFormato = '';
         if (promo.dia.length === 1) {
             diasFormato = promo.dia[0];
-        } else if (promo.dia.length > 1) {
+        } else if (promo.dia.length > 1 && promo.dia.length < 6) {
             diasFormato =
                 promo.dia.slice(0, -1).join(', ') + ' y ' + promo.dia[promo.dia.length - 1];
+        } else if (promo.dia.length > 6) {
+            diasFormato = 'días';
         }
 
         article.innerHTML = `
