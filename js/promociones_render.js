@@ -16,8 +16,8 @@ export function promociones_render(promociones) {
             <p>${promo.descuento}% OFF</p>
 
             <p>
-                <del>$${promo.precio_original}</del>
-                <strong>$${precioFinal}</strong>
+                <del>$${promo.precio_original.toFixed(2)}</del>
+                <strong>$${precioFinal.toFixed(2)}</strong>
             </p>
             <p class="billetera-info">
                 todos los ${promo.dia} usando:
