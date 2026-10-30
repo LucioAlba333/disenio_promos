@@ -2,7 +2,7 @@
     {
         "id": 1,
         "producto": "leche",
-        "imagen": "../assets/leche.png",
+        "imagen": "assets/leche.png",
         "billetera": "modo",
         "descuento": 10,
         "precio_original": 100,
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "producto": "leche",
-        "imagen": "../assets/leche.png",
+        "imagen": "assets/leche.png",
         "billetera": "modo",
         "descuento": 10,
         "precio_original": 100,
@@ -20,7 +20,7 @@
     {
         "id": 2,
         "producto": "leche",
-        "imagen": "../assets/leche.png",
+        "imagen": "assets/leche.png",
         "billetera": "modo",
         "descuento": 10,
         "precio_original": 100,
@@ -29,7 +29,7 @@
     {
         "id": 2,
         "producto": "leche",
-        "imagen": "../assets/leche.png",
+        "imagen": "assets/leche.png",
         "billetera": "modo",
         "descuento": 10,
         "precio_original": 100,
