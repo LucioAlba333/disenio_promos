@@ -32,5 +32,8 @@ header.navbar details.dropdown summary {
   font-size: 0.875em;
 }
 header.navbar details.dropdown ul {
-  right: 0;
-  left: auto;}
+  right: 0 !important;
+  left: auto !important;
+  max-width: 90vw;
+  transform: none !important;
+}
