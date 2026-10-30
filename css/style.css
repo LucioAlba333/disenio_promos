@@ -4,3 +4,11 @@
   object-fit: contain;
   border-radius: 8px;
 }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--pico-background-color);
+  border-bottom: 1px solid var(--pico-muted-border-color);
+}
