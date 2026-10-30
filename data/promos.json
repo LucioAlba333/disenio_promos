@@ -6,7 +6,7 @@
         "billetera": "modo",
         "descuento": 10,
         "precio_original": 100,
-        "dia": ""
+        "dia": "lunes"
     },
     {
         "id": 2,
@@ -15,24 +15,24 @@
         "billetera": "modo",
         "descuento": 10,
         "precio_original": 100,
-        "dia": ""
+        "dia": "martes"
     },
     {
-        "id": 2,
+        "id": 3,
         "producto": "leche",
         "imagen": "assets/leche.png",
-        "billetera": "modo",
+        "billetera": "mercado pago",
         "descuento": 10,
         "precio_original": 100,
-        "dia": ""
+        "dia": "miercoles"
     },
     {
-        "id": 2,
+        "id": 4,
         "producto": "leche",
         "imagen": "assets/leche.png",
-        "billetera": "modo",
+        "billetera": "mercado pago",
         "descuento": 10,
         "precio_original": 100,
-        "dia": ""
+        "dia": "jueves"
     }
 ]

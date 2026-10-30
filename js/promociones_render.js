@@ -25,6 +25,7 @@ export function promociones_render(promociones) {
                 <del>$${promo.precio_original}</del>
                 <strong>$${precioFinal}</strong>
             </p>
+            <p>${promo.dia}</p>
         `;
         container.appendChild(article);
     });
