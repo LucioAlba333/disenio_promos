@@ -4,7 +4,7 @@
         "producto": "leche",
         "imagen": "assets/leche.png",
         "billetera": "modo",
-        "logotipo": "assets/mercado-pago.svg",
+        "logotipo": "assets/modo.png",
         "descuento": 10,
         "precio_original": 100,
         "dia": "lunes"
@@ -14,7 +14,7 @@
         "producto": "leche",
         "imagen": "assets/leche.png",
         "billetera": "modo",
-        "logotipo": "assets/mercado-pago.svg",
+        "logotipo": "assets/modo.png",
         "descuento": 10,
         "precio_original": 100,
         "dia": "martes"

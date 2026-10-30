@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     promociones_render(promociones);
     cargarDias(promociones);
     cargarBilleteras(promociones);
-    const filtroDia = document.getElementById('dia');
-    const filtroBilletera = document.getElementById('billetera');
+    const filtroDia = document.getElementById('lista-dia');
+    const filtroBilletera = document.getElementById('lista-billetera');
     const actualizarVista = () => {
         const filtradas = aplicarFiltros(promociones);
         promociones_render(filtradas);

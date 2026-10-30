@@ -12,21 +12,18 @@ export function promociones_render(promociones) {
             <p>
                 <strong>${promo.producto}</strong>
             </p>
-
             <img class="producto-img" src="${promo.imagen}" alt="${promo.producto}">
-
-            <p class="billetera-info">
-            <img class=logo src="${promo.logotipo}" alt="${promo.billetera}">
-                <small>${promo.billetera}</small>
-            </p>
-
             <p>${promo.descuento}% OFF</p>
 
             <p>
                 <del>$${promo.precio_original}</del>
                 <strong>$${precioFinal}</strong>
             </p>
-            <p>${promo.dia}</p>
+            <p class="billetera-info">
+                todos los ${promo.dia} usando:
+            <img class=logo src="${promo.logotipo}" alt="${promo.billetera}">
+                <small>${promo.billetera}</small>
+            </p>
         `;
         container.appendChild(article);
     });
