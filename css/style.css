@@ -4,26 +4,30 @@
   object-fit: contain;
   border-radius: 8px;
 }
-
 .navbar {
   position: sticky;
   top: 0;
   z-index: 1000;
   background: var(--pico-background-color);
-  border-bottom: 1px solid var(--pico-muted-border-color);
+  border-bottom: 2px solid var(--pico-muted-border-color);
 }
 .billetera-info {
   display: flex;
   align-items: center;
   gap: 0.75rem;
 }
+nav{
 
+}
 .logo {
   width: 3rem;
   height: 3rem;
   object-fit: contain;
 }
-
-summary {
-  text-fit: shrink;
+header.navbar details.dropdown summary {
+  white-space: normal !important;
+  word-break: break-word;
+  height: auto !important;
+  display: block;
+  line-height: 1.3;
 }
