@@ -15,7 +15,8 @@ export function promociones_render(promociones) {
 
             <img class="producto-img" src="${promo.imagen}" alt="${promo.producto}">
 
-            <p>
+            <p class="billetera-info">
+            <img class=logo src="${promo.logotipo}" alt="${promo.billetera}">
                 <small>${promo.billetera}</small>
             </p>
 

@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="">
+<html lang="" data-theme="light">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>promociones</title>
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
@@ -18,32 +18,36 @@
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
+  <link rel="icon" href="assets/percent.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/percent.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-<!-- Add your site or application content here -->
+
 <header class="header">
   <nav>
     <ul>
       <li><strong>Promociones</strong></li>
     </ul>
+    <ul>
+      <li>
+        <select id="dia">
+          <option value="">Todos los días</option>
+        </select>
+      </li>
+      <li>
+        <select id="billetera">
+          <option value="">Todas las billeteras</option>
+        </select>
+      </li>
+    </ul>
+
   </nav>
 </header>
 <main class="container">
-  <select id="dia">
-    <option value="">Todos los días</option>
-  </select>
 
-  <select id="billetera">
-    <option value="">Todas las billeteras</option>
-  </select>
   <section id="promociones"></section>
 </main>
 <script type="module" src="js/app.js"></script>

@@ -9,9 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const filtroDia = document.getElementById('dia');
     const filtroBilletera = document.getElementById('billetera');
     const actualizarVista = () => {
-        console.log('evento change');
         const filtradas = aplicarFiltros(promociones);
-        console.log('filtradas:', filtradas);
         promociones_render(filtradas);
     };
     filtroDia.addEventListener('change', actualizarVista);

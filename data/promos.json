@@ -4,6 +4,7 @@
         "producto": "leche",
         "imagen": "assets/leche.png",
         "billetera": "modo",
+        "logotipo": "assets/mercado-pago.svg",
         "descuento": 10,
         "precio_original": 100,
         "dia": "lunes"
@@ -13,6 +14,7 @@
         "producto": "leche",
         "imagen": "assets/leche.png",
         "billetera": "modo",
+        "logotipo": "assets/mercado-pago.svg",
         "descuento": 10,
         "precio_original": 100,
         "dia": "martes"
@@ -22,6 +24,7 @@
         "producto": "leche",
         "imagen": "assets/leche.png",
         "billetera": "mercado pago",
+        "logotipo": "assets/mercado-pago.svg",
         "descuento": 10,
         "precio_original": 100,
         "dia": "miercoles"
@@ -31,6 +34,7 @@
         "producto": "leche",
         "imagen": "assets/leche.png",
         "billetera": "mercado pago",
+        "logotipo": "assets/mercado-pago.svg",
         "descuento": 10,
         "precio_original": 100,
         "dia": "jueves"
