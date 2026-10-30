@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "producto": "leche",
+        "imagen": "assets/leche.png",
+        "billetera": "modo",
+        "logotipo": "assets/modo.png",
+        "descuento": 10,
+        "precio_original": 100,
+        "dia": "lunes"
+    },
+    {
+        "id": 2,
+        "producto": "leche",
+        "imagen": "assets/leche.png",
+        "billetera": "modo",
+        "logotipo": "assets/modo.png",
+        "descuento": 10,
+        "precio_original": 100,
+        "dia": "martes"
+    },
+    {
+        "id": 3,
+        "producto": "leche",
+        "imagen": "assets/leche.png",
+        "billetera": "mercado pago",
+        "logotipo": "assets/mercado-pago.svg",
+        "descuento": 10,
+        "precio_original": 100,
+        "dia": "miercoles"
+    },
+    {
+        "id": 4,
+        "producto": "leche",
+        "imagen": "assets/leche.png",
+        "billetera": "mercado pago",
+        "logotipo": "assets/mercado-pago.svg",
+        "descuento": 10,
+        "precio_original": 100,
+        "dia": "jueves"
+    }
+]
