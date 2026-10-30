@@ -1,11 +1,20 @@
 [
     {
         "id": 1,
-        "producto": "",
-        "imagen": "",
-        "billetera": "",
-        "descuento": "",
-        "precio_original": "",
+        "producto": "leche",
+        "imagen": "../assets/leche.png",
+        "billetera": "modo",
+        "descuento": 10,
+        "precio_original": 100,
+        "dia": ""
+    },
+    {
+        "id": 2,
+        "producto": "leche",
+        "imagen": "../assets/leche.png",
+        "billetera": "modo",
+        "descuento": 10,
+        "precio_original": 100,
         "dia": ""
     }
 ]
